@@ -61,6 +61,7 @@ header.header-purple a{
      
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -148,14 +149,15 @@ nav {
         color: #000000; 
       }
 .mobile-menu-button {
-    display: none;
-    background: none;
+    display: flex;
+    background: fixed;
     border: none;
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 5px 10px;
 }
+
 
 main {
     flex: 1;
@@ -294,7 +296,7 @@ footer p {
       justify-content: space-around;
  flex-wrap: wrap; 
   gap: 20px;
-  width: calc(100% - 40px); /* لجعل عرض الحاوية يملأ الشاشة مع خصم الهوامش الجانبية */
+  width: calc(100% - 40px);
 }
 
 .stat-box {
@@ -448,63 +450,6 @@ footer p {
   .bord-button:hover {
     background-color: #fb2d2d;
   }
-/*
-.stats-boxs{
-    background-color: #f9f9f9;
-    text-align: center;
-    display: none;
-    padding: 50px 50px; 
-}
-.boxs {
-    margin: 20px;
-      display: none; 
-      justify-content: space-around;
- flex-wrap: wrap; 
-  gap: 20px;
-  width: calc(100% - 40px); 
-}
-.local-box {
-    border-radius: 10px; 
-    padding: 50px; 
-    text-align: center; 
-    flex-basis: calc(25% - 20px); 
-    box-sizing:content-box;
-    min-width: 200px;
-    box-shadow: 0 0px 20px rgba(185, 180, 180, 0.2);
-    flex-grow: 1;
-    flex-basis: auto;
-    font-weight: bold;
-    font-size: medium;
-  
-  }
-  .local-box:nth-child(5) {
-    background-color: #e0f7fa; 
-  }
-  
-  .local-box:nth-child(6) {
-    background-color: #f1f8e9; 
-  }
-  
-  .local-box:nth-child(7) {
-
-    background-color: #f3e5f5; 
-
-  }
-  
-  .local-box:nth-child(8) {
-    background-color: #f3e5f5; 
-  }
-  
-  .local-text{
-    text-align: right;
-    display: block;
-    font-size: 2rem; 
-    font-weight: bold;
-    margin-bottom: 10px; 
-  }
-
-
-*/
 
 
 
@@ -534,14 +479,14 @@ footer p {
     }
     
     .mobile-menu-button {
-        display: block;
+        display: flex;
     }
-    
+
     .menu {
         display: flex;
         flex-direction: column;
         width: 100%;
-        background-color: #673ab7;
+        background-color: #ffffff;
         padding: 15px 0;
         margin-top: 15px;
     }
