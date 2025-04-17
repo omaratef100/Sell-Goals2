@@ -388,6 +388,12 @@ main {
     margin-right: 0;
     margin-left: 0;
 }
+
+.athor, .athor-info1, .athor2  h2{
+    color: #000000;
+    line-height: 1.3;
+    font-weight: bold;
+}
   .bord-section {
     background-color: #4a148c; 
     color: white;
@@ -419,7 +425,7 @@ main {
   .bord-button:hover {
     background-color: #fb2d2d;
   }
-.stats-boxs h2 {
+.stats-boxs h3 {
     color: #333; 
     font-size: 20px;
     margin-top: 30px; 
@@ -511,7 +517,7 @@ background-color: #ffffff;
 
 }
 
-.footer1-section h3 {
+.footer1-section h4 {
     margin-top: 0; 
     margin-bottom:20px;
     font-size: 1.6em;
@@ -599,7 +605,7 @@ background-color: #ffffff;
     text-align:right;
 
 }
-.sell-goals h3 {
+.sell-goals h4 {
     font-size: 1.6em;
     text-align:right;
 
