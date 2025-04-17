@@ -501,18 +501,21 @@ background-color: #ffffff;
     flex-wrap: wrap; 
     justify-content: space-around; 
     align-items: flex-start; 
+    gap: 30px;
+    flex-direction: row-reverse;
 }
 
 .footer1-section {
     margin-bottom: 0px; 
-    text-align:left; 
+    text-align:right; 
 
 }
 
 .footer1-section h3 {
     margin-top: 0; 
     margin-bottom:20px;
-    font-size: 1.2em;
+    font-size: 1.6em;
+    font-weight: bold;
 
 }
 
@@ -531,7 +534,7 @@ background-color: #ffffff;
 .footer1-section a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: bold;
      
 }
@@ -587,6 +590,7 @@ background-color: #ffffff;
 }
 .sell-goals {
     margin-top: 5px;
+    min-width: 300px;
 }
 
 .sell-goals p {
@@ -596,8 +600,7 @@ background-color: #ffffff;
 
 }
 .sell-goals h3 {
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: 1.6em;
     text-align:right;
 
 }
