@@ -526,9 +526,8 @@ background-color: #ffffff;
 
 
 .footer1-section ul li {
-    margin-bottom: 8px; 
-    list-style: none; 
-
+    margin-bottom: 0px;
+    list-style: none;
 }
 
 .footer1-section a {
@@ -540,7 +539,7 @@ background-color: #ffffff;
 }
 
 .newsletter {
-    text-align: center; 
+    text-align: center;
     margin-top: 15px;
 }
 
@@ -582,15 +581,16 @@ background-color: #ffffff;
 }
 
 .newsletter input[type="checkbox"] {
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 .newsletter label[for="terms"] {
     font-size: 0.8em;
 }
+
 .sell-goals {
     margin-top: 5px;
-    min-width: 300px;
+    max-width: 300px;
 }
 
 .sell-goals p {
