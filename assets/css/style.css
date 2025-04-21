@@ -6,7 +6,7 @@
 
 body {
     font-family: "Almarai", sans-serif;
-    background-color: #673ab7;
+    background-color: #4c1f9a;
     color: #ffffff;
     direction: rtl;
     min-height: 100vh;
@@ -38,7 +38,7 @@ body {
   }
   
 header.header-purple {
-    background-color: #673ab7;
+    background-color: #4c1f9a;
     color: rgb(0, 0, 0);
     padding: 1rem 0;
     position: sticky;
@@ -605,7 +605,7 @@ cursor: grabbing;
 
   /*************************************************************************************************************************************/
   .footer1 {
-    background-color: #673ab7;
+    background-color: #4c1f9a;
     color: #FFFFFF;
     padding: 30px 20px;
     display: flex;
