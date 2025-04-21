@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>sign-Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Goals 111</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+
+</head>
+<body>
+    <header id="mainHeader" class="header-purple">
+        <nav>
+            <div class="logo">
+                <span>Sell Goals</span>
+            </div>
+            <button class="mobile-menu-button" onclick="toggleMenu()">☰</button>
+            <div class="menu" id="mainMenu">
+                <a href="#" class="home">Home</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="contact.html">Contact Us</a>
+                <button onclick="goToSignup()">SignUp</button>
+                <button onclick="goToLogin()">Login</button>
+                <div class="language-dropdown">
+                    <select id="language" onchange="changeLanguage(this.value)">
+                        <option value="ar" selected>العربية</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<section class="sign-up">
+    <div class="confirm">
+        <h2>Registration</h2>
+          <label for="name">الاسم *</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">البريد الإلكتروني *</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="password">كلمة المرور *</label>
+          <input type="password" id="password" name="password" required>
+    
+          <label for="confirm">تأكيد كلمة المرور *</label>
+          <input type="password" id="confirm" name="confirm" required>
+    
+          <button type="submit" class="btn">Register</button>
+    
+          <div class="login-link">
+            <p>هل لديك حساب؟ <a href="/login">تسجيل الدخول</a></p>
+          </div>
+  
+      </div>
+    </section>
+
+
+
+
+
+
+    <footer class="footer1">
+        <div class="newsletter footer1-section">
+            <h4>اشترك في النشرة البريدية</h4>
+            <label for="email">أدخل بريدك الإلكتروني</label>
+            <input type="email" id="email" name="email" placeholder="بريدك الإلكتروني">
+
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">أوافق على الشروط والأحكام وسياسة الخصوصية</label>
+            </div>
+            <button type="submit">الاشتراك</button>
+        </div>
+
+        <div class="company footer1-section">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">Pricing Plan</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="features footer1-section">
+            <h4>Features</h4>
+            <ul>
+                <li><a href="#">Timeline Review</a></li>
+                <li><a href="#">Custom Fields</a></li>
+                <li><a href="#">Custom Templates</a></li>
+                <li><a href="#">Task Dependencies</a></li>
+            </ul>
+        </div>
+
+        <div class="sell-goals footer1-section">
+            <h4>Sell Goals</h4>
+            <p>على عكس ما يعتقده الكثيرون، فإن لوريم إيبسوم ليس نصًا عشوائيًا. بل إنه يعود أصوله إلى قطعة من الأدب اللاتيني الكلاسيكي تعود إلى القرن الخامس عشر الميلادي. بينما كان نصه الأصلي غير واضح المعالم، فقد تم تنقيحه ليشكل نصًا مقروءًا. لا يزال الكثيرون يعتقدون أن لوريم إيبسوم ما هو إلا نص عشوائي، لكن ظهوره في الكتب والمجلات الإلكترونية دلل على خلاف ذلك.</p>
+        </div>
+
+       
+    </footer>
+    <footer>
+        <div class="social-icons">
+            <div>
+                <a href=" https://www.facebook.com/profile.php?id=100010080276889&mibextid=ZbWKwL" target="_blank"><img src="assets/images/facebook.png" alt="فيسبوك"></a>
+                <a href="https://www.instagram.com/omar._.atef1?igsh=MWtldjJod3oxOXB2cQ==" target="_blank"><img src="assets/images/instagram.png" alt="انستجرام"></a>
+                <a href="https://x.com/omerabomosa1?t=pMHx_F2wFb_BtHjuLH3pwg&s=09" target="_blank"><img src="assets/images/twitter.png" alt="تويتر"></a>
+            </div>
+        </div>
+        <p>&copy; Copyright @2023. All Rights Reserved by your_system_name.com</p>
+    </footer>
+</body>
+</html>
